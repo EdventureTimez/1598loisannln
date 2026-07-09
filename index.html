@@ -150,6 +150,8 @@
   @media(max-width:760px){.hero-dots{display:none}}
   header .shade{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(4,20,38,.42) 0%,rgba(4,20,38,.05) 45%,rgba(4,20,38,.82) 100%)}
   .hero-content{position:relative;width:100%;max-width:1140px;margin:0 auto;padding:0 24px 66px}
+  .hero-panel{display:inline-block;background:rgba(4,20,38,.42);backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);padding:32px 38px 34px;border:1px solid rgba(201,166,104,.28);border-radius:2px;box-shadow:0 14px 44px rgba(0,0,0,.28)}
+  @media(max-width:760px){.hero-panel{padding:22px 20px 24px;display:block}}
   .hero-content .kicker{font-size:12px;letter-spacing:.34em;text-transform:uppercase;font-weight:500;color:var(--gold-rich);margin-bottom:18px;display:flex;align-items:center;gap:16px}
   .hero-content .kicker::before{content:'';width:44px;height:1px;background:var(--gold-rich)}
   .hero-content h1{font-family:var(--serif);font-weight:500;font-size:clamp(42px,6.5vw,78px);line-height:1.04;text-shadow:0 2px 28px rgba(0,0,0,.45)}
@@ -266,6 +268,7 @@
   <div class="hero-dots" id="heroDots"></div>
   <div class="shade"></div>
   <div class="hero-content">
+    <div class="hero-panel">
     <div class="kicker">Brookdale &middot; North Naperville</div>
     <h1>1598 Lois Ann Lane</h1>
     <p class="sub">An exceptional residence in Naperville, Illinois 60563</p>
@@ -280,6 +283,7 @@
     <div class="hero-cta">
       <a class="btn btn-gold" href="#contact">Schedule a Visit</a>
       <a class="btn btn-ghost" href="#gallery">View Gallery</a>
+    </div>
     </div>
   </div>
 </header>
