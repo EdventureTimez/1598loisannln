@@ -184,6 +184,16 @@
   .feature p{font-size:15px;color:var(--ink-soft)}
   .feature .num{font-family:var(--serif);font-style:italic;font-size:15px;color:var(--gold);letter-spacing:.12em;margin-bottom:8px}
 
+  /* Updates timeline */
+  .tl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;margin-top:44px}
+  .tl-card{background:var(--white);border:1px solid var(--line);border-top:2px solid var(--gold);padding:20px 20px 16px}
+  .tl-card .yr{font-family:var(--serif);font-size:26px;font-weight:600;color:var(--navy);line-height:1}
+  .tl-card ul{list-style:none;margin-top:10px}
+  .tl-card li{font-size:14px;color:var(--ink-soft);padding:3px 0 3px 14px;position:relative}
+  .tl-card li::before{content:'◆';position:absolute;left:0;top:7px;font-size:7px;color:var(--gold)}
+  .tl-note{margin-top:14px;background:var(--white);border:1px solid var(--line);border-left:2px solid var(--gold);padding:16px 20px;font-size:14.5px;color:var(--ink-soft)}
+  .tl-note strong{color:var(--navy)}
+
   /* Gallery */
   .gallery-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin-top:48px}
   .gallery-grid figure{position:relative;overflow:hidden;cursor:pointer;aspect-ratio:3/2;background:linear-gradient(110deg,#e9e4d8 8%,#f4f0e7 22%,#e9e4d8 36%);background-size:200% 100%;animation:shimmer 1.6s linear infinite}
@@ -309,6 +319,30 @@
       <div class="feature rv"><div class="num">No. 07</div><h3>Outdoor Living</h3><p>Expansive deck and privacy fence, framed by lush, mature trees &mdash; perfect for summer evenings.</p></div>
       <div class="feature rv"><div class="num">No. 08</div><h3>Move-In Ready</h3><p>New luxury vinyl plank flooring, fresh paint throughout, newer roof, siding, and windows, plus a whole home humidifier.</p></div>
     </div>
+  </div>
+</section>
+
+<section id="updates">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Cared For, Year After Year</div>
+      <h2>Updates Through the Years</h2>
+    </div>
+    <div class="tl-grid">
+      <div class="tl-card rv"><div class="yr">2014</div><ul><li>New roof</li><li>New siding</li></ul></div>
+      <div class="tl-card rv"><div class="yr">2016</div><ul><li>New water heater</li></ul></div>
+      <div class="tl-card rv"><div class="yr">2017</div><ul><li>Finished basement</li></ul></div>
+      <div class="tl-card rv"><div class="yr">2018</div><ul><li>White 6-panel doors</li><li>White trim throughout</li><li>New deck</li><li>New privacy fence</li></ul></div>
+      <div class="tl-card rv"><div class="yr">2019</div><ul><li>Kitchen cabinets &amp; countertop refresh/upgrade</li></ul></div>
+      <div class="tl-card rv"><div class="yr">2020</div><ul><li>Master bath</li><li>New fireplace crown &amp; seal</li></ul></div>
+      <div class="tl-card rv"><div class="yr">2021</div><ul><li>First-floor bathroom remodel</li><li>Second-floor bathroom vanity</li></ul></div>
+      <div class="tl-card rv"><div class="yr">2022</div><ul><li>Barn door install</li></ul></div>
+      <div class="tl-card rv"><div class="yr">2023</div><ul><li>Replaced furnace blower</li></ul></div>
+      <div class="tl-card rv"><div class="yr">2024</div><ul><li>Smoke &amp; carbon detectors</li></ul></div>
+      <div class="tl-card rv"><div class="yr">2025</div><ul><li>New front walkway</li><li>Whole-home humidifier</li><li>New wood flooring — first floor</li></ul></div>
+      <div class="tl-card rv"><div class="yr">2026</div><ul><li>New wood flooring — staircase</li><li>New asphalt driveway</li></ul></div>
+    </div>
+    <div class="tl-note rv"><strong>Windows:</strong> replaced in phases across 2014, 2018, 2021, 2025 &amp; 2026.</div>
   </div>
 </section>
 
